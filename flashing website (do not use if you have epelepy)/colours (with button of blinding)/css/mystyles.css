@@ -1,0 +1,18 @@
+#stretch{
+    position: absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+}
+#button_colour{
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    border: 10px white;
+    left:45%;
+    right:45%;
+    top:45%;
+    bottom:45%;
+    font-size: 75%;
+}
