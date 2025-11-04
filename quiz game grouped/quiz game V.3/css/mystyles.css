@@ -1,0 +1,79 @@
+.body{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform : uppercase;
+    
+}
+.upper-div{
+    top:50px
+}
+.title{
+    position: absolute;
+    top:20px;
+    left:30%;
+    width:40%;
+    background-color: whitesmoke;
+    padding: 40px 20px;
+    border: 15px inset red;
+    border-radius: 25%;
+}
+.title h2{
+    font-size: 3em;
+    margin: 0;
+    text-emphasis: center;
+    text-align: center;
+}
+.quiz{ 
+    margin-top: 250px;
+    padding: 300px 900px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3/JWAAAAtFBMVEX+AAD///8AAABwAADFxcWdnZ36+vrl5eX29vahoaHY2Njs7OwHBwcODg5xcXHqAAAyAACpqallZWW8vLzS0tI8PDx3d3eUlJSwsLBdXV2Ojo7g4OAoKCh+fn7/GBbzPz2+oZ3Wgn/rU1DPfXrdc3DQd3XhfHnpYFzoa2i1AACKAABbAABpAACDAACqAADdAACXAAHCAAA8AAFEAAF4AAASAAEnAAEhISI3NzcXFxdUVFRFRUXTfiEkAAAC8ElEQVR4nO3YeU8aURSGcc7IPlplEQGZVq211e7W1u37f6/eO4wKaF6SRj23yfP7gww3Q3LyZFZqNQCAm7feAyTs3cHh4cHR+2PvOZJ09OHk+OPJ4SfvOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICnbJ+ebXz+8vXbd+9B0nO6k9374T1MWn5my8jzYCNbde49UjLOqyK7o6KY3OXZ9p4qDb/mNXpNKw371Ll3UaaYlmHa7fjZ3YorO96DJWB+LR6EJp1Z3OoPw+Zu3DrzHs3f76pNPZvUw4nV6mQ3oc6MEys4jRVGZr2sa5U3WdPyuHzhPNuGs4s/sUK4Cmdtuze9NNsr67jOVnv0gOFhz+zhuIluG9b0HirL0ojTsl5/sY21wrHU954qjTib4e40XIpjV3Ube4+VRpxJOKuW29je1LreY6URpwj3ppU44344tbylEmdrJc6AOJX+49Oq8f+eVpvPu/+12eX+cpybgb4gP/MET/u3OFvPvH9ujWKpTTuLz8mvOMGTkjitsvjIly/GeRNaeQ8V4tS9lWOE29P14uU4LHTies91tJp5G8UIU7Ni1rxbGodH5nZcvvQczMw/zvyOXY+HSqN89xzebubVHzpj39H841QX3vD6kIet26vsOia5SeDASSFO9frdidutYTcePflVudRd88uXlkAcG87rzAbV91YxX2i4TmVpxAk3p8pk2miMZtWXYv0PX1gScR7qLJh6D5VKHGvNVtvUvUeyZOLE/9cTO2wsoThm9buXqcm4uX7v15BQnKC9393P1+/2WtKKkxjiCMQRiCMQRyCOQByBOAJxBOIIxBGIIxBHII5AHIE4AnEE4gjEEYgjEEcgjkAcgTgCcQTiCMQRiCMQRyCOQByBOAJxBOIIxBGIIxBHII5AHIE4AnEE4gjEEYgjEEcgjkAcgTgCcQTiCMQRiCMQRyCOQByBOAJxBOIIxBGIIxBHII5AHIE4AnEE4gjEEYgjEEcgjvAX7RmLqBx+LssAAAAASUVORK5CYII=) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px outset none;
+}
+.A1{
+    display: block;
+    position: relative;
+    padding: 35px;
+    margin-bottom: 30px;
+}
+span{
+    display: block;
+    position: relative;
+    height: 150px;
+    width: 750px;
+    background-color: rgb(218, 23, 23);
+    border: 5px solid rgb(42, 96, 189);
+    border-radius: 25%;
+    text-align: center;
+    font-size: 45px;
+    color: aliceblue;
+}
+.ansA{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+.ansB{
+    position: absolute;
+    top:40%;
+    left:56%;
+}
+.ansC{
+    position: absolute;
+    top:67%;
+    left:5%;
+}
+.ansD{
+    position: absolute;
+    top:67%;
+    left:56%;
+}
+span[class = "question"]{
+    position:absolute;
+    height:140px;
+    width:1400px;
+    top:22%;
+    left:15%;
+}

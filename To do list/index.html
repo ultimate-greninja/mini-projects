@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+
+    <link rel = "stylesheet" href="css/mystyles.css">
+</head>
+<body style="background-color:rgb(60, 60, 100);">
+    <div class = "center-div">
+        <div class = "title">
+            <h2> Tom's ToDo List</h2>
+        </div>
+        <div class = "todos" id ="todos">
+            <div class = "todo" id = "item1">
+                <input type = "checkbox" id ="todocheck1"/>
+                <span class = "checkmark" onclick = "TaskChange(1)"></span>
+                <input type = "text" id = "todotext1"/>
+                <input type = "button" value = "X" class = "delete-button" onclick = "DeleteToDo(1)"/>
+            </div>
+            <input type="button" class = "add-button" value = "+" onclick = "AddToDo()"/>
+        </div>
+    </div>
+    <script src="scripts/todo.js"></script>  
+</body>
+</html>
