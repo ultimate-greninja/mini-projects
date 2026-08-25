@@ -1299,7 +1299,6 @@ def attack_strength(pokemon_type_1, pokemon_type_2):
 
 def pokedex():
   pokemon_dex = (0)
-  import pandas as pd
   pokemon = pd.read_csv("pokemon.csv")
   pokemon_evolve_method = "N/A"
   while pokemon_dex == 0:

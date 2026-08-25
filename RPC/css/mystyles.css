@@ -1,0 +1,160 @@
+#boardContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(20,20,20);
+}
+
+#outerboard{
+    position: absolute;
+    top: 10vh;
+    left: 7.5vw;
+    bottom: 10vh;
+    right: 32.5vw;
+    max-width: 100vw;
+    max-height: 80vh;
+    width: 50vw;
+    height: 80vh;
+    background-color: rgb(77, 45, 16);
+    border-radius: 40px;
+}
+
+#innerboard{
+    position: absolute;
+    top: 5vh;
+    left: 2.5vw;
+    bottom: 5vh;
+    right: 2.5vw;
+    max-width: 80vw;
+    max-height: 80vh;
+    width: 45vw;
+    height: 70vh;
+    background-color: rgb(30, 30, 30);
+}
+
+.square,.square2{
+    height:12.5%;
+    width:100%;
+}
+
+.square{
+    background-color: rgb(147, 99, 52);
+}
+
+.square2{
+    background-color: rgb(225, 177, 140);
+}
+
+#a_Rank, #b_Rank, #c_Rank, #d_Rank, #e_Rank, #f_Rank, #g_Rank, #h_Rank{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    height: 100%;
+}
+
+#a_Rank{
+    left: 0%;
+    right: 87.5%;
+    width: 12.5%;
+}
+
+#b_Rank{
+    left: 12.5%;
+    right: 75%;
+    width: 12.5%;
+}
+
+#c_Rank{
+    left: 25%;
+    right: 62.5%;
+    width: 12.5%;
+}
+
+#d_Rank{
+    left: 37.5%;
+    right: 50%;
+    width: 12.5%;
+}
+
+#e_Rank{
+    left: 50%;
+    right: 37.5%;
+    width: 12.5%;
+}
+
+#f_Rank{
+    left: 62.5%;
+    right: 25%;
+    width: 12.5%;
+}
+
+#g_Rank{
+    left: 75%;
+    right: 12.5%;
+    width: 12.5%;
+}
+
+#h_Rank{
+    left: 87.5%;
+    right: 0%;
+    width: 12.5%;
+}
+
+#upgradesContainer{
+    position: absolute;
+    top: 10vh;
+    left: 70vw;
+    bottom: 10vh;
+    right: 2.5vw;
+    max-width: 100vw;
+    max-height: 80vh;
+    width: 25vw;
+    height: 80vh;
+    background-color:  rgb(77, 45, 16);
+    border-radius: 40px;
+}
+
+#upgrade1{
+    position: absolute;
+    top: 5vh;
+    left: 2.5vh;
+    right: 2.5vh;
+    width: 90%;
+    height: 20vh;
+    background-color: rgb(147, 99, 52);
+    border-radius: 20px;
+}
+
+#upgrade2{
+    position: absolute;
+    top: 30.5vh;
+    left: 2.5vh;
+    right: 2.5vh;
+    width: 90%;
+    height: 20vh;
+    background-color: rgb(147, 99, 52);
+    border-radius: 20px;
+}
+
+#upgrade3{
+    position: absolute;
+    top: 56vh;
+    left: 2.5vh;
+    right: 2.5vh;
+    width: 90%;
+    height: 20vh;
+    background-color: rgb(147, 99, 52);
+    border-radius: 20px;
+}
+
+#title{
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    right: 0vw;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
